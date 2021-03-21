@@ -22,12 +22,12 @@ body{
 .text-wrapper{
     width: 100%;
     position: relative;
-    margin-top: -40%;
+    margin-top: -20%;
 }
 
 .text-wrapper h1{
     text-align: center;
-    color: #ffffff;
+    color: #3399ff;
     font-size: 10vw;
 
 }
