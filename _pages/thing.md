@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Thibg"
-permalink: /thing/
+title: "Experience"
+permalink: /experience/
 author_profile: true
 ---
 
