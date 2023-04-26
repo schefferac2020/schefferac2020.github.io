@@ -4,11 +4,13 @@ main:
   - title: "Resume"
     url: /resume/
 
+  - title: "Research"
+    url: /research/  
+
   - title: "Project Portfolio"
     url: /portfolio/
 
-  - title: "Research"
-    url: /research/    
+  
 
   - title: "Teaching"
     url: /teaching/    

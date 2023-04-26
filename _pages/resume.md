@@ -5,4 +5,4 @@ permalink: /resume/
 author_profile: true
 ---
 
-##[DOWNLOAD HERE](../files/resume.pdf)
+## [DOWNLOAD HERE](../files/resume.pdf)
