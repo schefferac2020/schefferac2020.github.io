@@ -13,6 +13,8 @@ If interested, you can [download my resume here](../files/resume.pdf).
 
 <a href="#" class="btn--success">Success Button</a>
 
+<div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
+
 
 What I'm Doing Now
 ======
