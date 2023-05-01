@@ -15,6 +15,13 @@ If interested, you can [download my resume here](../files/resume.pdf).
 
 <div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
 
+<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
+<div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
+<div markdown="0"><a href="#" class="btn btn--warning">Warning Button</a></div>
+<div markdown="0"><a href="#" class="btn btn--danger">Danger Button</a></div>
+<div markdown="0"><a href="#" class="btn btn--info">Info Button</a></div>
+
+
 
 What I'm Doing Now
 ======
