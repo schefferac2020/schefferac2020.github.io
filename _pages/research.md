@@ -9,6 +9,13 @@ author_profile: true
 ### *Class Project | Winter 2023*
 In this work, we set out to reproduce and build upon the results presented in Learning RGB-D Feature Embeddings for Unseen Object Instance Segmentation (Xiang et al., 2021). Additionally, our team extends upon previous work by adapting the existing UOIS model such that it can perform segmentation on RGB-only images. By fusing the RGB-only input images with output from a monocular depth estimation sub-network, our proposed *Da-TRASH* model is able to operate in environments and on robotic platforms where depth sensors are inadequite or unavailable. \
 ![Da-TRASH](../images/da_trash_qual.jpg) \
+
+<div markdown="0" align="center">
+    <a href="https://deeprob.org/w23/reports/da-trash/" class="btn btn--info">Webpage</a>
+    <a href="../files/Da-TRASH.pdf" class="btn btn--info">Paper</a>
+    <a href="https://github.com/schefferac2020/Da-TRASH" class="btn btn--info">Github</a>
+</div>
+
 [Webpage](https://deeprob.org/w23/reports/da-trash/) | [Paper](../files/Da-TRASH.pdf) | [Github](https://github.com/schefferac2020/Da-TRASH)
 
 ## Automated Discourse Identification in Argumentative Essays
