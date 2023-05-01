@@ -28,7 +28,11 @@ In an attempt to fulfill the need for the high demand of affordable Automated Es
 ## Search and Rescue Autonomous System (SARAS)
 ### *Class Project | Fall 2022*
 Search And Rescue Autonomous System (a.k.a SARA), refers to a highly integrated, fully automated, and functionally precise robotics operational system which aims to guide a malfunctioning robot back to its destination. The goal of the SARA is to autonomously locate a stranded “Blind” robot, which is unable to read its LiDAR data, within an unknown environment and return it to a home base. This rescue is performed autonomously by a “Seeker” bot. The SARA system is designed to be deployed in most of the complicated landscapes on Earth. Space exploration and rescue missions are also possible. \
-![botlab](../images/botlab_map.png)
+
+<div markdown="0" width="50%">    
+    ![botlab](../images/botlab_map.png)
+</div>
+
 <div markdown="0" align="center">    
     <a href="https://www.youtube.com/watch?v=H2apOiehBUE&ab_channel=KatieWakevainen" class="btn btn--info">Video</a>
     <a href="../files/SARAS.pdf" class="btn btn--info">Paper</a>
