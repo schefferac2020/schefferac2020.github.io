@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am an aspiring computer scientist and robotisist interested in having fun solving interesting problems! I've just finished my undegradauate degree in Computer Science and Engineering from the [University of Michigan, Ann Arbor](https://www.engin.umich.edu/) and I'm looking forward to starting a master's degree this upcoming semester in Computer Engineering with a focus in robotics. 
+I am an aspiring computer scientist and roboticist interested in solving cool problems! I've just finished my undergraduate degree in Computer Science and Engineering from the [University of Michigan, Ann Arbor](https://www.engin.umich.edu/). I'm looking forward to starting a master's degree this upcoming semester in Computer Engineering with a focus in robotics. 
 
 If interested, you can [download my resume here](../files/resume.pdf).
 
@@ -18,7 +18,7 @@ If interested, you can [download my resume here](../files/resume.pdf).
 <div markdown="0"><a href="#" class="btn">Primary Button</a></div>
 <div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
 <div markdown="0"><a href="#" class="btn btn--warning">Warning Button</a></div>
-<div markdown="0">
+<div markdown="0" align="center">
     <a href="#" class="btn btn--info">INFO TESTING</a>
     <a href="#" class="btn btn--danger">DANGER Button</a>
 </div>
