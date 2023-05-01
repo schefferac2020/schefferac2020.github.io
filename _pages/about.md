@@ -7,9 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am an aspiring and computer scientist and robotisist interested in having fun solving interesting problems! I've just finished my undegradauate degree in Computer Science and Engineering from the [University of Michigan, Ann Arbor](https://www.engin.umich.edu/) and I'm looking forward to starting a continuing master's degree this upcoming semester in Computer Engineer with a focus in robotics. 
+I am an aspiring computer scientist and robotisist interested in having fun solving interesting problems! I've just finished my undegradauate degree in Computer Science and Engineering from the [University of Michigan, Ann Arbor](https://www.engin.umich.edu/) and I'm looking forward to starting a continuing master's degree this upcoming semester in Computer Engineer with a focus in robotics. 
 
 If interested, you can [download my resume here](../files/resume.pdf).
+
+<button name="button" onclick="http://www.google.com">Click me</button>
 
 What I'm Doing Now
 ======
