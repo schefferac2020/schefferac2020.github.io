@@ -33,6 +33,8 @@ Search And Rescue Autonomous System (a.k.a SARAS), refers to a highly integrated
     <img src="../images/botlab_map.png" alt="Girl in a jacket" width="50%">
 </div>
 
+ \
+
 <div markdown="0" align="center">    
     <a href="https://www.youtube.com/watch?v=H2apOiehBUE&ab_channel=KatieWakevainen" class="btn btn--info">Video</a>
     <a href="../files/SARAS.pdf" class="btn btn--info">Paper</a>
