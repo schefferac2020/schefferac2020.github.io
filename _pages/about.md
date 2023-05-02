@@ -11,21 +11,6 @@ I am an aspiring computer scientist and roboticist interested in solving cool pr
 
 If interested, you can [download my resume here](../files/resume.pdf).
 
-<a href="#" class="btn--success">Success Button</a>
-
-<div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--warning">Warning Button</a></div>
-<div markdown="0" align="center">
-    <a href="#" class="btn btn--info">INFO TESTING</a>
-    <a href="#" class="btn btn--danger">DANGER Button</a>
-</div>
-
-
-<a href="#" class="btn btn--success">Success Button</a>
-
 What I'm Doing Now
 ======
 Preparing for my **summer internship at NASA JPL** where I'll be working on the simulation stack for the Mars Sample Return mission. 
