@@ -11,7 +11,7 @@ main:
     url: /portfolio/
   
   - title: "Game Development"
-    url: /portfolio/
+    url: /gamedev/
 
   # - title: "Blog Posts"
   #   url: /year-archive/
