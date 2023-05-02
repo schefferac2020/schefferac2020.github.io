@@ -5,6 +5,8 @@ permalink: /gamedev/
 author_profile: true
 ---
 
+<br>
+
 ## [Sub-Merged Conflicts](https://amongnight.itch.io/sub-merged-conflicts)
 Collaborative 7-week game design project where 
 you and a friend are underwater explorers on a 
@@ -13,9 +15,7 @@ encounter dangerous creatures, and use your teamwork skills to keep your submari
 <div markdown="0" width="50%">    
     <img src="../images/submerged.png" alt="Girl in a jacket" width="50%">
 </div>
-
-<p>&nbsp;</p>
-
+<br>
 <div markdown="0">
     <a href="https://amongnight.itch.io/sub-merged-conflicts" class="btn btn--info">PLAY NOW</a>
 </div>
@@ -27,9 +27,7 @@ A video game prototype by where you play as a pixelated puffin who's hungry for 
 <div markdown="0" width="50%">    
     <img src="../images/ppuffins.jpg" alt="Girl in a jacket" width="50%">
 </div>
-
-<p>&nbsp;</p>
-
+<br>
 <div markdown="0">
     <a href="https://schefferac2020.github.io/PeriodicPuffin/" class="btn btn--info">PLAY NOW</a>
 </div>
@@ -39,9 +37,7 @@ Video game design project by [Andrew Scheffer](https://github.com/schefferac2020
 <div markdown="0" width="50%">    
     <img src="../images/legend_of_duck.jpg" alt="Girl in a jacket" width="50%">
 </div>
-
-<p>&nbsp;</p>
-
+<br>
 <div markdown="0">
     <a href="https://schefferac2020.github.io/LegendOfZeldaWebsite/" class="btn btn--info">PLAY NOW</a>
 </div>

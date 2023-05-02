@@ -5,6 +5,8 @@ permalink: /research/
 author_profile: true
 ---
 
+<br>
+
 ## *Da-TRASH*: Depth-appended Tabletop Recycling Algorithm for Segmenting Havoc
 ### *Class Project | Winter 2023*
 In this work, we set out to reproduce and build upon the results presented in Learning RGB-D Feature Embeddings for Unseen Object Instance Segmentation (Xiang et al., 2021). Additionally, our team extends upon previous work by adapting the existing UOIS model such that it can perform segmentation on RGB-only images. By fusing the RGB-only input images with output from a monocular depth estimation sub-network, our proposed *Da-TRASH* model is able to operate in environments and on robotic platforms where depth sensors are inadequite or unavailable. \
@@ -15,7 +17,7 @@ In this work, we set out to reproduce and build upon the results presented in Le
     <a href="https://github.com/schefferac2020/Da-TRASH" class="btn btn--info">Github</a>
 </div>
 
-## Automated Discourse Identification in Argumentative Essays<br>
+## Automated Discourse Identification in Argumentative Essays
 ### *Class Project | Winter 2023*
 In an attempt to fulfill the need for the high demand of affordable Automated Essay Scoring (AES) systems, this work presents a customized Discourse Segmentation Model, a critical component of the AES pipeline. Discourse Segmentation requires the accurate categorization of different argumentative elements in essays, which allows downstream AES systems to analyze essay structure, factual basis, etc. Our system takes argumentative essays as input and outputs a sequence of tokens indicating the corresponding argumentative element for each word of the essay. Our team uses data from the PERSUADE Corpus in conjunction with an encoder transformer model to perform this sequencing task. \
 ![NLP](../images/NLP_qualitative.png)

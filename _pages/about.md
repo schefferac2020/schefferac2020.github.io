@@ -7,11 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<br>
 I am an aspiring computer scientist and roboticist interested in solving cool problems! I've just finished my undergraduate degree in Computer Science and Engineering from the [University of Michigan, Ann Arbor](https://www.engin.umich.edu/). I'm looking forward to starting a master's degree this upcoming semester in Computer Engineering with a focus in robotics. 
 
 If interested, you can [download my resume here](../files/resume.pdf).
 
 What I'm Doing Now
+<br>
 ======
 I'm preparing for my **summer internship at NASA JPL** where I'll be working on the simulation stack for the Mars Sample Return mission. 
 
