@@ -11,7 +11,7 @@ you and a friend are underwater explorers on a
 mission to find the treasure, navigate through treacherous currents,
 encounter dangerous creatures, and use your teamwork skills to keep your submarine safe and strike gold!
 <div markdown="0" width="50%">    
-    <img src="../images/legend_of_duck.jpg" alt="Girl in a jacket" width="50%">
+    <img src="../images/submerged.png" alt="Girl in a jacket" width="50%">
 </div>
 
 <p>&nbsp;</p>
