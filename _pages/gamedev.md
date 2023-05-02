@@ -14,7 +14,7 @@ encounter dangerous creatures, and use your teamwork skills to keep your submari
     <img src="../images/legend_of_duck.jpg" alt="Girl in a jacket" width="50%">
 </div>
 
-<div markdown="0"">
+<div markdown="0">
     <a href="https://amongnight.itch.io/sub-merged-conflicts" class="btn btn--info">PLAY NOW</a>
 </div>
 
@@ -26,7 +26,7 @@ A video game prototype by where you play as a pixelated puffin who's hungry for 
     <img src="../images/ppuffins.jpg" alt="Girl in a jacket" width="50%">
 </div>
 
-<div markdown="0"">
+<div markdown="0">
     <a href="https://schefferac2020.github.io/PeriodicPuffin/" class="btn btn--info">PLAY NOW</a>
 </div>
 
@@ -36,7 +36,7 @@ Video game design project by [Andrew Scheffer](https://github.com/schefferac2020
     <img src="../images/legend_of_duck.jpg" alt="Girl in a jacket" width="50%">
 </div>
 
-<div markdown="0"">
+<div markdown="0">
     <a href="https://schefferac2020.github.io/LegendOfZeldaWebsite/" class="btn btn--info">PLAY NOW</a>
 </div>
 

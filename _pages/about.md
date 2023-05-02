@@ -13,7 +13,7 @@ If interested, you can [download my resume here](../files/resume.pdf).
 
 What I'm Doing Now
 ======
-Preparing for my **summer internship at NASA JPL** where I'll be working on the simulation stack for the Mars Sample Return mission. 
+I'm preparing for my **summer internship at NASA JPL** where I'll be working on the simulation stack for the Mars Sample Return mission. 
 
 I'm the **software lead for Michigan Autonomous Aereal Vehicles (MAAV)** where we design, program, and test software code for a completely autonomous on-board flight system. Our team is competing in the IARC international competition this year and plans on running flight tests this summer! 
 
