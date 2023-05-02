@@ -13,8 +13,8 @@ I am an aspiring computer scientist and roboticist interested in solving cool pr
 If interested, you can [download my resume here](../files/resume.pdf).
 
 What I'm Doing Now
-<br>
 ======
+<br>
 I'm preparing for my **summer internship at NASA JPL** where I'll be working on the simulation stack for the Mars Sample Return mission. 
 
 I'm the **software lead for Michigan Autonomous Aereal Vehicles (MAAV)** where we design, program, and test software code for a completely autonomous on-board flight system. Our team is competing in the IARC international competition this year and plans on running flight tests this summer! 
@@ -26,4 +26,5 @@ I'm currently a **teaching assistant for EECS 482 -- Operating Systems** which i
 
 Contact Me
 ======
+<br>
 Please feel free to reach out with any questions, inquiries, or jokes via my email, [drewskis@umich.edu](mailto:drewskis@umich.edu).
