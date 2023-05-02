@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br>
 ## Quick Action
 ### *Febuary 2023*
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+One of the main features of *Quick Action* is the ability to localize the user in a room, and create a custom AR map to the nearest exit of the building. This system was designed to be extremely accessible to all users, especially the vision impaired. Our app guides the user through the environment through detailed spoken instructions and visual cues based on the user's current position. Our team also implemented a fully-integrated person-counting system for lockdown situations. In this system, users are able to report specific locations that they are currently sheltering in place in which can be used as extra information by law enforcement. Users are able to "panic" which signals the 911 dispatcher that they are in distress. Additionally, a backend was fully implemented that allows the 911 dispatcher to sort and signal groups of people with important rescue information.
 <div markdown="0" width="50%">    
     <img src="../images/quickaction.png" alt="Girl in a jacket" width="50%">
 </div>
@@ -85,6 +85,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 <br>
 <div markdown="0">    
-    <a href="https://github.com/AshwinS27/TrebleInTheSheets" class="btn btn--info">Github</a>
+    <a href="https://github.com/michiganhackers/GGBLost" class="btn btn--info">Github</a>
 </div>
 
