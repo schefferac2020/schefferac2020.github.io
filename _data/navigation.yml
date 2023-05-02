@@ -8,7 +8,7 @@ main:
     url: /research/  
 
   - title: "Project Portfolio"
-    url: /portfolio/
+    url: /projects/
   
   - title: "Game Development"
     url: /gamedev/
