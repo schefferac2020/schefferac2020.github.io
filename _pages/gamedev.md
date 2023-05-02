@@ -4,9 +4,7 @@ title: "Game Development"
 permalink: /gamedev/
 author_profile: true
 ---
-
 <br>
-
 ## [Sub-Merged Conflicts](https://amongnight.itch.io/sub-merged-conflicts)
 Collaborative 7-week game design project where 
 you and a friend are underwater explorers on a 
@@ -17,8 +15,9 @@ encounter dangerous creatures, and use your teamwork skills to keep your submari
 </div>
 <br>
 <div markdown="0">
-    <a href="https://amongnight.itch.io/sub-merged-conflicts" class="btn btn--info">PLAY NOW</a>
+    <a href="https://amongnight.itch.io/sub-merged-conflicts" class="btn btn--info btn--x-large">PLAY NOW</a>
 </div>
+<br>
 
 
 ## [Periodic Puffins](https://schefferac2020.github.io/PeriodicPuffin/)
@@ -29,8 +28,9 @@ A video game prototype by where you play as a pixelated puffin who's hungry for 
 </div>
 <br>
 <div markdown="0">
-    <a href="https://schefferac2020.github.io/PeriodicPuffin/" class="btn btn--info">PLAY NOW</a>
+    <a href="https://schefferac2020.github.io/PeriodicPuffin/" class="btn btn--info btn--x-large">PLAY NOW</a>
 </div>
+<br>
 
 ## [The Legend of Duck](https://schefferac2020.github.io/LegendOfZeldaWebsite/)
 Video game design project by [Andrew Scheffer](https://github.com/schefferac2020) and [Christian Foreman](https://github.com/ChristianForeman) that implements the Legend of Zelda's first dungeon in addition to a custom level. For our custom level, our team implimented a duck controller. Every movement the player makes is mirrored by the duck which makes for very interesting puzzles and dangerous situations!
@@ -39,6 +39,7 @@ Video game design project by [Andrew Scheffer](https://github.com/schefferac2020
 </div>
 <br>
 <div markdown="0">
-    <a href="https://schefferac2020.github.io/LegendOfZeldaWebsite/" class="btn btn--info">PLAY NOW</a>
+    <a href="https://schefferac2020.github.io/LegendOfZeldaWebsite/" class="btn btn--info btn--x-large">PLAY NOW</a>
 </div>
+<br>
 
