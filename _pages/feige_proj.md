@@ -16,7 +16,7 @@ Thankfully, every time we click one of the buttons the URL will change. This all
 
 The following will outline different packages that need to be installed for the new scraper to work.
 
-### Python Packages
+### 1. Python Packages
 
 first, install the *Selenium* package by typing the following into your command line. (I believe we used powershell last time?)
 
@@ -24,7 +24,7 @@ first, install the *Selenium* package by typing the following into your command 
 $ pip install selenium
 ```
 
-### Chrome Web Driver
+### 2. Chrome Web Driver
 
 Selenium works by using what is known as the *Chrome Web Driver*. 
 
@@ -66,7 +66,7 @@ This command will do the following things:
 In the script, I tried to put enough comments to make it understandable if you want to know how everything works. Below, I'll outline a couple things that can be useful to change.
 
 
-### Add In *Manual* Links
+### 1. Add In *Manual* Links
 At the top of the script...
 ```python
 manual_links = ["https://www.brownells.com/reloading/components/primers/rifle-primers/?sku=749004526"]
@@ -76,13 +76,13 @@ You can use this array to add in links that the indexing component missed. Curre
 
 To add these manual links, make the selection of what you want to scrape (i.e. Standard -- Small Rifle) **THEN** copy the link and paste it into the `manual_links` array. 
 
-### Specify SKUs to ignore
+### 2. Specify SKUs to ignore
 ```python
 sku_nums_to_ignore = ["749004527"]
 ```
 Simply enter the SKU numbers that you would like to ignore
 
-### Ignore entire brands
+### 3. Ignore entire brands
 Visit the `should_exclude` function for an example of how to ignore an entire brand.
 
 # Final Comments
