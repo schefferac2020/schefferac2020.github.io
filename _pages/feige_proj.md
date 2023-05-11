@@ -14,6 +14,8 @@ Thankfully, every time we click one of the buttons the URL will change. This all
 
 ## Requirements
 
+The following will outline different packages that need to be installed for the new scraper to work.
+
 ### Python Packages
 
 first, install the *Selenium* package by typing the following into your command line. (I believe we used powershell last time?)
