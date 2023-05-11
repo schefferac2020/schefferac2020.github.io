@@ -8,7 +8,7 @@ Hello! This page will be used to help set up the web scraper.
 
 ## Overview
 
-With the new website format, the main difficulty is in order to view if an item is in stock, various buttons need to clicked (something the previous scraper was unable to accomidate). 
+With the new website format, the main difficulty is that in order to view if an item is in stock, various buttons need to clicked. This is something the previous scraper was unable to accomidate. 
 
 Thankfully, every time we click one of the buttons the URL will change. This allows us to split the scraping up into two different steps: **INDEXING** -- or identifying the URLs that we are trying to scrap, and **SCRAPING** -- once we have the URLs, checking the URL, brand name, and sku. 
 
@@ -32,7 +32,7 @@ First, make sure that you have downloaded [Google Chrome](https://www.google.com
 
 Next, check the version of Google Chrome that you have [following this](https://help.illinoisstate.edu/technology/support-topics/device-support/software/web-browsers/what-version-of-chrome-do-i-have).
 
-Finally, download the correct version of the [Chrome Web Driver](https://chromedriver.chromium.org/downloads) depending on your version of Google Chrome. This should a file named chromedriver.exe. We want this file to be in the same folder as the scraper. Below is an image of what it looks like on my computer. 
+Finally, download the correct version of the [Chrome Web Driver](https://chromedriver.chromium.org/downloads) depending on your version of Google Chrome. This should contain file named chromedriver.exe. We want this file to be in the same folder as the scraper. Below is an image of what it looks like on my computer. 
 
 <div markdown="0" width="50%">    
     <img src="../images/feige_files.png" alt="Girl in a jacket" width="50%">
@@ -48,17 +48,17 @@ $ python new_scraper.py
 ```
 
 This command will do the following things:
-1. open a chrome driver and start finding all the useful URLs (typically takes ~2 minutes and only does this once)
-2. Saves these useful URLs to a file that you can use in the future instead of repeating this process every time
-3. Begins to scrape the URLS
+1. Opens a chrome driver and start finding all the useful URLs (typically takes ~2 minutes). 
+2. Saves these useful URLs to a file named `links.json` that you can use in the future instead of repeating this process every time
+3. Begins to scrape the URLS until one of them is in stock
 
 ### 2. Load all the URLs from a file, then start scraping
 ```console
 $ python new_scraper.py --file links.json
 ```
 This command will do the following things:
-1. this will open the file named `links.json` and use these useful URLs (instead of using Selenium). This will save ~2 minutes when the script starts.
-2. Begins to scrape the URLS
+1. Opens the file named `links.json` and use these useful URLs (instead of using Selenium). This will save ~2 minutes when the script starts.
+2. Begins to scrape the URLS until one of them is in stock
 
 <br/>
 
@@ -88,3 +88,5 @@ Visit the `should_exclude` function for an example of how to ignore an entire br
 # Final Comments
 
 Through a little testing, I've found their new website periodically takes a really long time to service requests. I haven't tested it for a prolonged time but we can see how it works
+
+You may need to uncomment all the `send_email` function so that it actually sends you emails. I kept it commented for the time being so it wouldn't be spam.
