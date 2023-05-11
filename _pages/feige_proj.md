@@ -32,7 +32,10 @@ Next, check the version of Google Chrome that you have [following this](https://
 
 Finally, download the correct version of the [Chrome Web Driver](https://chromedriver.chromium.org/downloads) depending on your version of Google Chrome. This should a file named chromedriver.exe. We want this file to be in the same folder as the scraper. Below is an image of what it looks like on my computer. 
 
-[INSERT PICTURE HERE]
+<div markdown="0" width="50%">    
+    <img src="../images/feige_files.png" alt="Girl in a jacket" width="50%">
+</div>
+<br/>
 
 ## Usage
 There are two ways to use the scraper...
@@ -43,8 +46,9 @@ $ python new_scraper.py
 ```
 
 This command will do the following things:
-1. open a chrome driver and start finding all the usefull URLs (typically takes ~2 minutes and only does this once)
-2. Begins to scrape the URLS
+1. open a chrome driver and start finding all the useful URLs (typically takes ~2 minutes and only does this once)
+2. Saves these useful URLs to a file that you can use in the future instead of repeating this process every time
+3. Begins to scrape the URLS
 
 ### 2. Load all the URLs from a file, then start scraping
 ```console
@@ -54,6 +58,7 @@ This command will do the following things:
 1. this will open the file named `links.json` and use these useful URLs (instead of using Selenium). This will save ~2 minutes when the script starts.
 2. Begins to scrape the URLS
 
+<br/>
 
 ## Variables you can modify
 In the script, I tried to put enough comments to make it understandable if you want to know how everything works. Below, I'll outline a couple things that can be useful to change.
@@ -67,7 +72,7 @@ manual_links = ["https://www.brownells.com/reloading/components/primers/rifle-pr
 
 You can use this array to add in links that the indexing component missed. Currently, the only known missed example is [this primer](https://www.brownells.com/reloading/components/primers/rifle-primers). The reason is because they have multiple stages of buttons. 
 
-To add these manual links, make the selection of what you want to scrape (i.e. Standard | Small Rifle) **THEN** copy the link and paste it into the `manual_links` array. 
+To add these manual links, make the selection of what you want to scrape (i.e. Standard -- Small Rifle) **THEN** copy the link and paste it into the `manual_links` array. 
 
 ### Specify SKUs to ignore
 ```python
