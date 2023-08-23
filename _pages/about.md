@@ -15,7 +15,6 @@ If interested, you can [download my resume here](../files/resume.pdf).
 What I'm Doing Now
 ======
 <br>
-
 I'm extening my **previous summering internship at NASA JPL** throughout this school year. I'll continue working on the surface simulation stacks for the [Mars 2020](https://mars.nasa.gov/mars2020/mission/overview/) mission, the [Mars Sample Return](https://mars.nasa.gov/msr/) mission, and the soon-to-be-launched [CADRE tech demo](https://www.nasa.gov/directorates/spacetech/game_changing_development/projects/CADRE). 
 
 I'm currently **pursing a masters in Computer Engineering with a focus in robotics**. This semester, I'm enrolled in Mathematics for Robotics (ROB 501), Robotics Design Lab (ROB 550), Advanced Computer Vision (EECS 542), and Avionics, Navigation and Guidance of Aerospace Vehicles (AEROSP 584) at UofM.
