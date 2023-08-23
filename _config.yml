@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Andrew Scheffer's Website"
 title_separator          : "-"
 name                     : &name "Andrew Scheffer"
-description              : &description "Incoming Graduate Student at the University of Michigan"
+description              : &description "Graduate Student at the University of Michigan"
 url                      : https://schefferac2020.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "schefferac2020/schefferac2020.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Andrew Scheffer"
   avatar           : "profile.png"
-  bio              : "Incoming Graduate Student at the University of Michigan"
+  bio              : "Graduate Student at the University of Michigan"
   location         : "Ann Arbor, MI"
   employer         :
   pubmed           : 
