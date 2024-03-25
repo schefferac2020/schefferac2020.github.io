@@ -2,7 +2,7 @@
 main:
 
   - title: "Resume"
-    url: ../files/resume.pdf
+    url: /files/resume.pdf
 
   - title: "Research"
     url: /research/  
