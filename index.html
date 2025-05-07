@@ -36,8 +36,8 @@
                                         Lab</a> at the University of Michigan advised by <a
                                         href="https://web.eecs.umich.edu/~stellayu/">Prof. Stella Yu</a>.
                                     I also earned my BSE (2020-2023) and MSE (2023-2024) at the University of Michigan.
-                                    This summer, I'm continuing my internship at the <b>NASA Jet Propulsion
-                                        Laboratory</b> where I'm working on the surface simulation software for the <a
+                                    Last summer, I continued my internship at the <b>NASA Jet Propulsion
+                                        Laboratory</b> working on the surface simulation software for the <a
                                         href="https://science.nasa.gov/mission/mars-2020-perseverance/">Mars 2020</a>
                                     mission,
                                     <a href="https://science.nasa.gov/mission/mars-sample-return/">Mars Sample
@@ -137,7 +137,7 @@
                                         processing. At the moment, I'm particularly interested in <em>active
                                             perception</em> in embodied AI.
                                     </p>
-                                    <p>
+                                    <!-- <p>
                                         I'm currently working as a researcher in the Intelligent Robotics and Autonomy
                                         Lab (IRAL) under Prof.
                                         <a href="https://vasileiostzoumas.com/">Vasileios Tzoumas</a>. Right now, we're
@@ -150,7 +150,7 @@
                                         professor Katie Skinner. I'm developing an underwater shipwreck detection
                                         pipeline using
                                         side-scan sonar imagery and other bathymetric data.
-                                    </p>
+                                    </p> -->
                                 </td>
                             </tr>
                         </tbody>
@@ -158,6 +158,56 @@
                     <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
+
+                            <tr onmouseout="morpheus_stop()" onmouseover="morpheus_start()"> <!--  bgcolor="#ffffd0" -->
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='morpheus_image'>
+                                            <video width="160" muted autoplay loop>
+                                                <source src="images/drew/rotate_z_small.mov" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                        <img src='images/drew/view2.png' width="160">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function morpheus_start() {
+                                            document.getElementById('morpheus_image').style.opacity = "1";
+                                        }
+
+                                        function morpheus_stop() {
+                                            document.getElementById('morpheus_image').style.opacity = "0";
+                                        }
+                                        morpheus_stop()
+                                    </script>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="files/ocraim_iral_morpheus.pdf">
+                                        <span class="papertitle">MorphEUS: Morphable OmnidirEctional Unmanned System</span>
+                                    </a>
+                                    <br>
+                                        <a href="https://www.linkedin.com/in/ivan-bao-575340191/">Ivan Bao<sup>*</sup></a>,</span>
+                                        <a href="https://www.linkedin.com/in/jose-diaz-peon/">José C. Díaz Peón González Pacheco<sup>*</sup></a>,
+                                        <a href="https://anavsalkar.github.io/">Atharva Navsalkar<sup>*</sup></a>,
+                                        <strong>Drew Scheffer</strong>*,
+                                        <a href="https://www.linkedin.com/in/sashreek-shankar-b504041aa/">Sashreek Shankar<sup>*</sup></a>,
+                                        <a href="https://www.andzhao.com/">Andrew Zhao<sup>*</sup></a>,
+                                        <a href="https://hongyu-zhou.github.io/">Hongyu Zhou<sup>*</sup></a>,
+                                        <a href="https://vasileiostzoumas.com/">Vasileios Tzoumas</a>
+                                    <br>
+                                    <em>ICRA Workshop</em>, 2025 (*Ordered Alphabetically)
+                                    <br>
+                                    <a href="https://iral-morphable.github.io/">project page</a>
+                                    /
+                                    <a href="files/ocraim_iral_morpheus.pdf">pdf</a>
+                                    <p></p>
+                                    <p>
+                                        MorphEUS is a compact, morphable co-axial quadrotor that enables efficient, 
+                                        resilient omnidirectional flight with independent position and orientation control, 
+                                        making it ideal for close-range inspection and manipulation tasks.
+                                    </p>
+                                </td>
+                            </tr>
 
                             <tr onmouseout="wrecktify_stop()" onmouseover="wrecktify_start()"> <!--  bgcolor="#ffffd0" -->
                                 <td style="padding:20px;width:25%;vertical-align:middle">
