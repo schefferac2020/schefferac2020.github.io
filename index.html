@@ -159,6 +159,54 @@
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
 
+                            <tr onmouseout="multibeam_stop()" onmouseover="multibeam_start()"> <!--  bgcolor="#ffffd0" -->
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='multibeam_image'>
+                                            <img src='images/drew/multibeam_segmented.jpg' width="160">
+                                        </div>
+                                        <img src='images/drew/multibeam_raw.jpg' width="160">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function multibeam_start() {
+                                            document.getElementById('multibeam_image').style.opacity = "1";
+                                        }
+
+                                        function multibeam_stop() {
+                                            document.getElementById('multibeam_image').style.opacity = "0";
+                                        }
+                                        multibeam_stop()
+                                    </script>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="files/test.pdf">
+                                        <span class="papertitle">ShipwreckFinder: A QGIS Tool for Shipwreck Detection in Multibeam Sonar Data</span>
+                                    </a>
+                                    <br>
+                                    Anja Sheppard*,
+                                    Tyler Smithline*,
+                                    <strong>Drew Scheffer</strong>,
+                                    David Smith,
+                                    Advaith V. Sethuraman,
+                                    Ryan Bird,
+                                    Sabrina Lin,
+                                    Katherine A. Skinner
+                                    
+                                    <br>
+                                    <em>OCEANS</em>, 2025
+                                    <br>
+                                    <a href="https://www.google.com">arxiv</a>
+                                    /
+                                    <a href="https://www.google.com">github</a>
+                                    /
+                                    <a href="files/test.pdf">pdf</a>
+                                    <p></p>
+                                    <p>
+                                        We introduce ShipwreckFinder, an open-source QGIS plugin that detects shipwrecks from multibeam sonar data.
+                                    </p>
+                                </td>
+                            </tr>
+
                             <tr onmouseout="morpheus_stop()" onmouseover="morpheus_start()"> <!--  bgcolor="#ffffd0" -->
                                 <td style="padding:20px;width:25%;vertical-align:middle">
                                     <div class="one">
