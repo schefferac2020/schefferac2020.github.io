@@ -32,12 +32,12 @@
 
                                     </p>
 
-                                    I am a <b>second year PhD student</b> in the <a href="https://ai.engin.umich.edu/">AI
+                                    I am a <b>PhD student</b> in the <a href="https://ai.engin.umich.edu/">AI
                                         Lab</a> at the University of Michigan advised by <a
                                         href="https://web.eecs.umich.edu/~stellayu/">Prof. Stella Yu</a>.
                                     I also earned my BSE (2020-2023) and MSE (2023-2024) at the University of Michigan.
-                                    Last summer, I continued my internship at the <b>NASA Jet Propulsion
-                                        Laboratory</b> working on the surface simulation software for the <a
+                                    Previously, I interned at the <b>NASA Jet Propulsion
+                                        Laboratory</b> where I worked on the surface simulation software for the <a
                                         href="https://science.nasa.gov/mission/mars-2020-perseverance/">Mars 2020</a>
                                     mission,
                                     <a href="https://science.nasa.gov/mission/mars-sample-return/">Mars Sample
@@ -49,9 +49,6 @@
                 </p> -->
                                     <p style="text-align:center">
                                         <a href="data/files/scheffer_CV.pdf">CV</a> &nbsp;/&nbsp;
-                                        <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                                        <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp; -->
-                                        <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
                                         <a href="https://github.com/schefferac2020/">Github</a> &nbsp;/&nbsp;
                                         <a href="https://scholar.google.com/citations?user=yPP-QwIAAAAJ&hl=en&authuser=1&oi=ao">Scholar</a>
 
@@ -135,24 +132,9 @@
                                 <td style="padding:20px;width:100%;vertical-align:middle">
                                     <h2>Research</h2>
                                     <p>
-                                        I'm broadly interested in robotics, computer vision, deep learning, and image
-                                        processing. At the moment, I'm particularly interested in <em>interactive
-                                            navigation</em> and embodied AI.
+                                        I'm broadly interested in robotics and computer vision. At the moment, I'm particularly interested in <em>interactive
+                                            navigation</em> and <em>active perception</em>.
                                     </p>
-                                    <!-- <p>
-                                        I'm currently working as a researcher in the Intelligent Robotics and Autonomy
-                                        Lab (IRAL) under Prof.
-                                        <a href="https://vasileiostzoumas.com/">Vasileios Tzoumas</a>. Right now, we're
-                                        developing and testing stable controllers for
-                                        a drone with additional degrees of freedom for each propellor.
-
-                                    </p>
-                                    <p>I'm also a summer research assistant in the <a
-                                            href="https://fieldrobotics.engin.umich.edu/">FROG Lab</a> at UofM under
-                                        professor Katie Skinner. I'm developing an underwater shipwreck detection
-                                        pipeline using
-                                        side-scan sonar imagery and other bathymetric data.
-                                    </p> -->
                                 </td>
                             </tr>
                         </tbody>
@@ -160,6 +142,54 @@
                     <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
+                                <tr onmouseleave="vigor_stop()" onmouseenter="vigor_start()"> <!--  bgcolor="#ffffd0" -->
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='vigor_image'>
+                                            <img id='vigor_gif' width="160" src="" data-src="images/drew/vigor.gif" alt="VIGOR animation">
+                                        </div>
+                                        <img src='images/drew/vigor_first_frame.png' width="160">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function vigor_start() {
+                                            const vigorGif = document.getElementById('vigor_gif');
+                                            if (vigorGif && !vigorGif.getAttribute('src')) {
+                                                vigorGif.src = vigorGif.dataset.src;
+                                            }
+                                            document.getElementById('vigor_image').style.opacity = "1";
+                                        }
+
+                                        function vigor_stop() {
+                                            document.getElementById('vigor_image').style.opacity = "0";
+                                            const vigorGif = document.getElementById('vigor_gif');
+                                            if (vigorGif) {
+                                                vigorGif.removeAttribute('src');
+                                            }
+                                        }
+                                        vigor_stop()
+                                    </script>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://vigor2026.github.io/">
+                                        <span class="papertitle">VIGOR: Visual Goal-In-Context Inference for Unified Humanoid Fall Safety</span>
+                                    </a>
+                                    <br>
+                                        <a href="https://osheraz.github.io/">Osher Azulay</a>,</span>
+                                        <a href="https://jerryxu0907.github.io/">Zhengjie Xu</a>,
+                                        <strong>Drew Scheffer</strong>*,
+                                        <a href="https://web.eecs.umich.edu/~stellayu/">Stella X. Yu</a>
+                                    <br>
+                                    <em>In Submission</em>
+                                    <br>
+                                    <a href="https://vigor2026.github.io/">project page</a>
+                                    /
+                                    <a href="https://arxiv.org/abs/2602.16511">arxiv</a>
+                                    <p></p>
+                                    <p>
+                                        A teacher-student framework that distills terrain-aware recovery goals into a deployable egocentric-depth policy.
+                                    </p>
+                                </td>
+                            </tr>
 
                             <tr onmouseout="multibeam_stop()" onmouseover="multibeam_start()"> <!--  bgcolor="#ffffd0" -->
                                 <td style="padding:20px;width:25%;vertical-align:middle">
