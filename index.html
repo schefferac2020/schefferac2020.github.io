@@ -148,6 +148,55 @@
                     <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
+                                <tr onmouseleave="egointercept_stop()" onmouseenter="egointercept_start()"> <!--  bgcolor="#ffffd0" -->
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='egointercept_image'>
+                                            <img id='egointercept_gif' width="160" src="" data-src="images/drew/egointercept.gif" alt="EgoIntercept animation">
+                                        </div>
+                                        <img src='images/drew/egointercept_first_frame.png' width="160">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function egointercept_start() {
+                                            const egoGif = document.getElementById('egointercept_gif');
+                                            if (egoGif && !egoGif.getAttribute('src')) {
+                                                egoGif.src = egoGif.dataset.src;
+                                            }
+                                            document.getElementById('egointercept_image').style.opacity = "1";
+                                        }
+
+                                        function egointercept_stop() {
+                                            document.getElementById('egointercept_image').style.opacity = "0";
+                                            const egoGif = document.getElementById('egointercept_gif');
+                                            if (egoGif) {
+                                                egoGif.removeAttribute('src');
+                                            }
+                                        }
+                                        egointercept_stop()
+                                    </script>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://egointercept.github.io/">
+                                        <span class="papertitle">EgoIntercept: Egocentric Object Interception with a Quadruped Robot</span>
+                                    </a>
+                                    <br>
+                                        <strong>Drew Scheffer</strong>,
+                                        <a href="https://osheraz.github.io/">Osher Azulay</a>,
+                                        <a href="https://web.eecs.umich.edu/~stellayu/">Stella X. Yu</a>
+                                    <br>
+                                    <em>In Submission</em>
+                                    <br>
+                                    <a href="https://egointercept.github.io/">project page</a>
+                                    /
+                                    paper coming soon
+                                    <p></p>
+                                    <p>
+                                        A quadruped catches flying objects entirely in its own moving frame, jointly learning egocentric object
+                                        motion prediction and locomotion from only onboard RGB-D sensing.
+                                    </p>
+                                </td>
+                            </tr>
+
                                 <tr onmouseleave="vigor_stop()" onmouseenter="vigor_start()"> <!--  bgcolor="#ffffd0" -->
                                 <td style="padding:20px;width:25%;vertical-align:middle">
                                     <div class="one">
