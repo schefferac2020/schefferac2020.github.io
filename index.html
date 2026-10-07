@@ -152,24 +152,28 @@
                                 <td style="padding:20px;width:25%;vertical-align:middle">
                                     <div class="one">
                                         <div class="two" id='egointercept_image'>
-                                            <img id='egointercept_gif' width="160" src="" data-src="images/drew/egointercept.gif" alt="EgoIntercept animation">
+                                            <video id='egointercept_video' width="160" muted loop playsinline preload="none">
+                                                <source src="images/drew/egointercept.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
                                         </div>
                                         <img src='images/drew/egointercept_first_frame.png' width="160">
                                     </div>
                                     <script type="text/javascript">
                                         function egointercept_start() {
-                                            const egoGif = document.getElementById('egointercept_gif');
-                                            if (egoGif && !egoGif.getAttribute('src')) {
-                                                egoGif.src = egoGif.dataset.src;
+                                            const egoVideo = document.getElementById('egointercept_video');
+                                            if (egoVideo) {
+                                                egoVideo.currentTime = 0;
+                                                egoVideo.play();
                                             }
                                             document.getElementById('egointercept_image').style.opacity = "1";
                                         }
 
                                         function egointercept_stop() {
                                             document.getElementById('egointercept_image').style.opacity = "0";
-                                            const egoGif = document.getElementById('egointercept_gif');
-                                            if (egoGif) {
-                                                egoGif.removeAttribute('src');
+                                            const egoVideo = document.getElementById('egointercept_video');
+                                            if (egoVideo) {
+                                                egoVideo.pause();
                                             }
                                         }
                                         egointercept_stop()
