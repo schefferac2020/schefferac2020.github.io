@@ -125,10 +125,12 @@ h2 {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 260px;
+  max-width: 100%;
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .two {
@@ -141,13 +143,34 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+/* The base image sets the preview's size; the hover layer fills it. */
 .one img,
 .one video {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: block;
-  object-fit: contain;
+}
+
+.two img,
+.two video {
+  height: 100%;
+  object-fit: cover;
   object-position: center;
+}
+
+.media-cell {
+  padding: 20px;
+  width: 300px;
+  vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  .pub-table > tbody > tr > td {
+    display: block;
+    box-sizing: border-box;
+    width: 100% !important;
+    padding: 12px 20px !important;
+  }
 }
 
 .fade {
